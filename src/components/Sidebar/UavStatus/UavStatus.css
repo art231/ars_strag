@@ -54,6 +54,20 @@
 }
 
 /* Адаптивность для UavStatus */
+@media (max-width: 992px) {
+  .uav-item {
+    padding: 10px;
+  }
+  
+  .uav-details {
+    font-size: 13px;
+  }
+  
+  .uav-group-title {
+    font-size: 15px;
+  }
+}
+
 @media (max-width: 768px) {
   .uav-details {
     grid-template-columns: 1fr;
@@ -67,15 +81,61 @@
   .uav-details {
     font-size: 12px;
   }
+  
+  .uav-status {
+    font-size: 11px;
+    padding: 2px 6px;
+  }
 }
 
 @media (max-width: 576px) {
+  .uav-group {
+    margin-bottom: 15px;
+  }
+  
+  .uav-item {
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
   .uav-name,
   .uav-group-title {
-    font-size: 14px;
+    font-size: 13px;
   }
   
   .uav-details {
+    font-size: 11px;
+    gap: 6px;
+    margin-top: 6px;
+  }
+  
+  .uav-status {
+    font-size: 10px;
+    padding: 1px 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .uav-group {
+    margin-bottom: 12px;
+  }
+  
+  .uav-item {
+    padding: 6px;
+  }
+  
+  .uav-name,
+  .uav-group-title {
     font-size: 12px;
+  }
+  
+  .uav-details {
+    font-size: 10px;
+    gap: 4px;
+  }
+  
+  .uav-status {
+    font-size: 9px;
+    padding: 1px 4px;
   }
 }

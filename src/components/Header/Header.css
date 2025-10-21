@@ -56,28 +56,39 @@
   }
 }
 
+@media (max-width: 992px) {
+  .header {
+    padding: 12px 15px;
+  }
+  
+  .header-title h1 {
+    font-size: 22px;
+  }
+  
+  .header-title h2 {
+    font-size: 15px;
+  }
+  
+  .status-counters {
+    gap: 15px;
+  }
+  
+  .counter-value {
+    font-size: 26px;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
     align-items: flex-start;
+    padding: 10px 12px;
   }
   
-  .status-counters {
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 10px;
+  .header-title {
+    margin-bottom: 8px;
   }
   
-  .counter-value {
-    font-size: 24px;
-  }
-  
-  .counter-label {
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 576px) {
   .header-title h1 {
     font-size: 20px;
   }
@@ -86,11 +97,66 @@
     font-size: 14px;
   }
   
+  .status-counters {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 8px;
+    gap: 10px;
+  }
+  
+  .counter-value {
+    font-size: 22px;
+  }
+  
+  .counter-label {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    padding: 8px 10px;
+  }
+  
+  .header-title h1 {
+    font-size: 18px;
+  }
+  
+  .header-title h2 {
+    font-size: 13px;
+  }
+  
+  .status-counters {
+    gap: 8px;
+  }
+  
   .counter-value {
     font-size: 20px;
   }
   
   .counter-label {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header-title h1 {
+    font-size: 16px;
+  }
+  
+  .header-title h2 {
     font-size: 12px;
+  }
+  
+  .counter-value {
+    font-size: 18px;
+  }
+  
+  .counter-label {
+    font-size: 9px;
+  }
+  
+  .status-counters {
+    gap: 5px;
   }
 }
