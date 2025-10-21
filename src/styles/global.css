@@ -1,13 +1,13 @@
 :root {
-  --primary-color: #1a3a5f;
-  --secondary-color: #0a2540;
-  --accent-color: #4fc3f7;
+  --primary-color: #2d2d2d;
+  --secondary-color: #1a1a1a;
+  --accent-color: #a0a0a0;
   --warning-color: #ff9800;
   --danger-color: #ff5252;
   --success-color: #4caf50;
   --text-primary: #e0e0e0;
-  --text-secondary: #b0bec5;
-  --card-bg: #132f4c;
+  --text-secondary: #b0b0b0;
+  --card-bg: #333333;
   --border-radius: 10px;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: #0a1929;
+  background-color: #121212;
   color: var(--text-primary);
   line-height: 1.6;
   min-height: 100vh;
@@ -58,7 +58,7 @@ body {
   font-size: 18px;
   margin-bottom: 15px;
   color: var(--accent-color);
-  border-bottom: 1px solid #1e4976;
+  border-bottom: 1px solid #404040;
   padding-bottom: 8px;
 }
 
